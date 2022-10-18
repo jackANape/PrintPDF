@@ -310,8 +310,6 @@ public class SocketPrint extends JFrame {
 		versionLbl = new JLabel(version);
 		versionLbl.setHorizontalAlignment(SwingConstants.CENTER);
 		versionLbl.setFont(new Font("Tahoma", Font.ITALIC, 9));
-		
-		JButton btnNewButton = new JButton("New button");
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
@@ -322,9 +320,7 @@ public class SocketPrint extends JFrame {
 							.addComponent(panel, GroupLayout.PREFERRED_SIZE, 348, GroupLayout.PREFERRED_SIZE))
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGap(145)
-							.addComponent(btnNewButton_1, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE)
-							.addGap(18)
-							.addComponent(btnNewButton))
+							.addComponent(btnNewButton_1, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE))
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGap(303)
 							.addComponent(versionLbl, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE))
@@ -339,9 +335,7 @@ public class SocketPrint extends JFrame {
 					.addGap(6)
 					.addComponent(panel, GroupLayout.PREFERRED_SIZE, 206, GroupLayout.PREFERRED_SIZE)
 					.addGap(19)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-						.addComponent(btnNewButton_1)
-						.addComponent(btnNewButton))
+					.addComponent(btnNewButton_1)
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 122, Short.MAX_VALUE)
 					.addPreferredGap(ComponentPlacement.RELATED)
